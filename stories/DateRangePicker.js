@@ -117,4 +117,7 @@ storiesOf('DateRangePicker (DRP)', module)
       orientation={VERTICAL_ORIENTATION}
       verticalHeight={568}
     />
+  )))
+  .add('with navigation by year', withInfo()(() => (
+    <DateRangePickerWrapper showYearNavigation />
   )));
